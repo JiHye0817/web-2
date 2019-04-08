@@ -1,0 +1,32 @@
+body{margin:0;}
+a {color:black;
+  text-decoration: none;}
+h1 {font-size:60px;
+    border-bottom:3px solid gray;
+    margin:0;
+    padding:30px;
+    text-align: center;:
+  }
+.saw {color:gray;}
+#bbb {line-height: 190%;}
+ol {border-right:3px solid gray;
+    width:275px;
+    margin:0;
+    padding-right:26px;
+    font-size:19px;
+    font-weight:bold;}
+#grid{display: grid;
+      grid-template-columns: 360px 1fr;}
+ol {padding-left:40px;}
+@media(max-width:800px){
+  #grid{
+    display: block;}
+  ol {border-right:none;}
+  h1 {border-bottom:none;}
+  }
+body{background-image:url("yellow3.jpg")}
+h2 {color: white;
+  font-size: 35px;
+  margin-bottom:20px;
+  text-decoration: underline;}
+  span {color: black;} }
